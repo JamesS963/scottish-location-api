@@ -1,0 +1,37 @@
+delete from Council_Area;
+insert into Council_Area(council_Area_Id,name,population,area,density)
+	values
+		(1,'City of Glasgow', 626410, 174.7, 3586),
+		(2,'City of Edinburgh', 518500, 263.4, 1969 ),
+		(3, 'Fife', 371910, 1325, 281),
+		(4, 'North Lanarkshire', 340180, 469.9, 724),
+		(5, 'South Lanarkshire', 319020, 1772, 180),
+		(6, 'Aberdeenshire', 261470, 6313, 41),
+		(7, 'Highland', 235540, 25657, 9),
+		(8, 'City of Aberdeen', 227560, 185.7, 1225),
+		(9, 'West Lothian', 182140, 427.7, 426),
+		(10, 'Renfrewshire', 177790, 261.5, 680),
+		(11, 'Falkirk', 160340, 297.4, 539),
+		(12, 'Perth and Kinross', 151290, 5286, 29),
+		(13, 'Dumfries and Galloway', 148790, 6427, 23),
+		(14, 'City of Dundee', 148750, 59.83, 2486),
+		(15, 'North Ayrshire', 135280, 885.4, 153),
+		(16, 'East Ayrshire', 121840, 1262, 97),
+		(17, 'Angus', 116040, 2182, 53),
+		(18, 'Scottish Borders', 115270, 4732, 24 ),
+		(19, 'South Ayrshire', 112550, 1222, 92),
+		(20, 'East Dunbartonshire', 108330, 174.5, 621),
+		(21, 'East Lothian', 105790, 679.2, 156),
+		(22, 'Moray', 95520, 2238, 43),
+		(23, 'East Renfrewshire', 95170, 174.2, 546),
+		(24, 'Stirling', 94330, 2187, 43),
+		(25, 'Midlothian', 91340, 353.7, 258),
+		(26, 'West Dunbartonshire', 89130, 158.8, 561),
+		(27, 'Argyll and Bute', 86260, 6909, 12),
+		(28, 'Inverclyde', 78150, 160.5, 487),
+		(29, 'Clackmannanshire', 51400, 159.0, 323),
+		(30, 'Na h-Eileanan Siar', 26830, 3059, 9),
+		(31, 'Shetland Islands', 22990, 1468, 16),
+		(32, 'Orkney Islands', 22190, 988.8, 22);
+		
+		
