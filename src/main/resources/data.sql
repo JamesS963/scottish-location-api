@@ -34,4 +34,63 @@ insert into Council_Area(council_Area_Id,name,population,area,density)
 		(31, 'Shetland Islands', 22990, 1468, 16),
 		(32, 'Orkney Islands', 22190, 988.8, 22);
 		
+delete from Location_Type;
+insert into Location_Type(LOCATION_TYPE_ID, name)
+		values
+		(1, 'city'),
+		(2, 'town');
 		
+delete from Location;
+insert into Location(LOCATION_ID, LOCATION_NAME, POSTCODE_AREA, AREA_CODE, LOCATION_TYPE_ID, POPULATION, COUNCIL_AREA_ID)
+		values
+			(1, 'Glasgow', 'G', 0141, 1, 612040, 1),
+			(2, 'Edinburgh', 'EH', 0131, 1, 488050, 2),
+			(3, 'Aberdeen', 'AB', 012382, 1, 148280, 14),
+			(5, 'Paisley', 'PA', 01505, 2, 77210, 10),
+			(6, 'East Kilbride', 'G7', 01355, 2, 75120, 5),
+			(7, 'Livingston', 'EH5', 01506, 2, 56269, 9),
+			(8, 'Hamilton', 'ML3', 01698, 2, 54080, 5),
+			(9, 'Dumfermline', 'KY11', 01383, 2, 50380, 3),
+			(10, 'Cumbernauld', 'G6', 01236, 2, 52270, 4),
+			(11, 'Kirkcaldy', 'KY', 01592, 2, 49460, 3),
+			(12, 'Perth', 'PH', 01738, 1, 46960, 12),
+			(13, 'Inverness', 'IV', 01463, 1, 70000, 7),
+			(14, 'Ayr', 'KA', 01292, 2, 46490, 19),
+			(15, 'Kilmarnock', 'KA', 01563, 2, 46350, 16),
+			(16, 'Coatbridge', 'ML5', 01236, 2, 43960, 4),
+			(17, 'Greenock', 'PA1', 01575, 2, 44248, 28 ),
+			(18, 'Glenrothes', 'KY', 01592, 2, 39277, 3),
+			(19, 'Stirling', 'FK', 01786, 1, 36142,  24),
+			(20, 'Airdrie', 'ML6', 01236, 2, 37130, 4),
+			(21, 'Falkirk', 'FK', 01324, 2, 35168, 11),
+			(22, 'Irvine', 'KA', 01294, 2, 33698, 15),
+			(23, 'Dumfries', 'DG', 01387, 2, 33280, 13),
+			(24, 'Motherwell', 'ML1', 01698, 2, 32120, 4),
+			(25, 'Rutherglen', 'G73', 0141, 2, 31190, 5),
+			(26, 'Wishaw', 'ML2', 01698, 2, 30510, 4),
+			(27, 'Cambuslang', 'G72', 0141, 2, 29100, 5),
+			(28, 'Bearsden', 'G61', 0141, 2, 27967, 20),
+			(29, 'Newton Mearns', 'G77', 0141, 2, 26933, 23),
+			(30, 'Clydebank', 'G81', 01389, 2, 26640, 26),
+			(31, 'Elgin', 'IV30', 01343, 2, 23128, 22),
+			(32, 'Arbroath', 'DD11', 01241, 2, 23902, 17),
+			(33, 'Bishopbriggs', 'G64', 0141, 2, 23500, 20),
+			(34, 'Bathgate', 'EH', 01506, 2, 20363, 9),
+			(35, 'Renfrew', 'PA4', 0141, 2, 21854, 10),
+			(36, 'Kirkintilloch', 'G66', 0141, 2, 21380, 20),
+			(37, 'Musselburgh', 'EH21', 0131, 2, 21900, 21),
+			(38, 'Dumbarton', 'G81', 01389, 2, 20527, 26),
+			(39, 'Bellshill', 'ML4', 01698, 2, 20650, 4),
+			(40, 'Peterhead', 'AB42', 01779, 2, 18437, 6),
+			(41, 'Barrhead', 'G78', 0141, 2, 19813, 23),
+			(42, 'St Andrews', 'KY16', 01334, 2, 16801, 3),
+			(43, 'Bonnyrigg', 'EH19', 0131, 2, 17530, 25),
+			(44, 'Blantyre', 'G72', 01698, 2, 16900, 5),
+			(45, 'Grangemouth', 'FK3', 01324, 2, 17906, 11),
+			(46, 'Kilwinning', 'KA13', 01294, 2, 21693, 15),
+			(47, 'Penicuik', 'EH26', 01968, 2, 15926, 25),
+			(48, 'Johnstone', 'PA', 01505, 2, 16625, 10),
+			(49, 'Viewpark', 'G', 01698, 2, 13916, 4),
+			(50, 'Erskine', 'PA8', 0141, 2, 15347, 10),
+			(51, 'Broxburn', 'EH52', 01506, 2, 12000, 9);
+			
